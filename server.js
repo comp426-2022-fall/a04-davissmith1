@@ -2,7 +2,7 @@
 
 import { roll } from "./lib/roll.js"
 import minimist from "minimist";
-import { Express } from "express";
+import express from "express";
 
 const args = require('minimist')(process.argv.slice(2));
 const port = args.port || 5000
