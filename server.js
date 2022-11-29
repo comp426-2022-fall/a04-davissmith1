@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
 import { roll } from "./lib/roll.js"
-const minimist = require ("minimist")
-const express = require("express")
+import minimist from "minimist";
+import { Express } from "express";
 
 const args = require('minimist')(process.argv.slice(2));
 const port = args.port || 5000
